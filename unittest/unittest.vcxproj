@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="..\vendor\googletest\src\gtest_main.cc" />
     <ClCompile Include="defer_test.cpp" />
+    <ClCompile Include="storage_test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
